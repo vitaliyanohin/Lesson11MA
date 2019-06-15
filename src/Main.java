@@ -48,11 +48,6 @@ public class Main {
     setTempFirst.removeAll(set2);
     setFinal.addAll(setTempFirst);
     setFinal.addAll(setTempSecond);
-
     return setFinal;
   }
-
-
 }
-
-
