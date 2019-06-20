@@ -7,10 +7,10 @@ import java.util.Scanner;
 public class Main {
 
   public static void main(String[] args) {
-    arrayShuffle2();
+    arrayShuffle();
   }
 
-  private static void arrayShuffle2() {
+  private static void arrayShuffle() {
     Deque<Integer> deque = new ArrayDeque<>();
     Scanner scanner = new Scanner(System.in);
     for (int i = 0; scanner.hasNextInt(); i++) {
